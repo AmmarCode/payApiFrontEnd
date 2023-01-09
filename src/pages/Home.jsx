@@ -45,7 +45,7 @@ const Home = () => {
                        items-center laptop:flex-row
                        laptop:justify-around"
           >
-            <div className="laptop:mt-[10.2rem] laptop:flex-col">
+            <div className="laptop:ml-[10rem] laptop:flex-col">
               <h1
                 className="font-serif text-SJBlue 
                            mobile:text-[3.2rem] 
