@@ -110,9 +110,10 @@ const Home = () => {
                      mobile:items-center mobile:flex-col-reverse 
                      mobile:justify-center
                      mobile:gap-y-[4.9rem] tablet:min-w-[76.8rem]
-                     laptop:min-w-[115.1rem] desktop:min-w-[144rem] 
+                     laptop:h-[47.2rem] laptop:min-w-[115.1rem] 
                      laptop:flex-row laptop:items-center 
-                     laptop:justify-evenly overflow-hidden"
+                     laptop:justify-evenly overflow-hidden 
+                     desktop:min-w-[144rem] "
         >
           <img
             src={bgCircle}
