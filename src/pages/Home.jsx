@@ -97,7 +97,7 @@ const Home = () => {
               src={phoneMockup}
               alt="phone mockup"
               className="mobile:w-[14.8rem] mobile:h-[24rem]
-                         laptop:w-[41rem] laptop:h-[67rem]"
+                         laptop:w-[41rem] laptop:h-[67rem] z-10"
             />
           </div>
         </section>
@@ -220,7 +220,7 @@ const Home = () => {
 
         <section
           className="flex mobile:flex-col-reverse items-center
-                            laptop:flex-row laptop:justify-center"
+                            laptop:flex-row laptop:justify-center laptop:ml-[5rem]"
         >
           <img
             src={bgCircle}
