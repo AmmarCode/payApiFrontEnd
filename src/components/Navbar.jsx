@@ -49,7 +49,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="cursor-pointer absolute left-[2.4rem] top-[4rem]
+            className="cursor-pointer absolute left-[2.4rem] top-[4.3rem]
                        z-10 tablet:left-[4rem] laptop:left-[10rem] desktop:left-[16.5rem]"
             onClick={handleCloseMenu}
           />

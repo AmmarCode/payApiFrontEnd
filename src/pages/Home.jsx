@@ -29,7 +29,7 @@ const Home = () => {
         className="mobile:w-[37.5rem] tablet:w-[76.8rem] 
                       laptop:w-[115rem] desktop:w-[144rem]"
       >
-        <section className="mb-[8rem]">
+        <section className="">
           <img
             src={bgCircle}
             alt="background circle pattern"
