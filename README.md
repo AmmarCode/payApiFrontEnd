@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ammar Jalabi](https://ammarjalabi.netlify.app/)
+- Website - [Ammar Jalabi's Portfolio](https://ammarjalabi.netlify.app/)
 - Frontend Mentor - [@AmmarCode](https://www.frontendmentor.io/profile/AmmarCode)
