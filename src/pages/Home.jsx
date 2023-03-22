@@ -76,7 +76,8 @@ const Home = () => {
                                  font-sans text-white font-bold 
                                  text-body tablet:w-[17.3rem] 
                                  tablet:absolute tablet:top-0
-                                 tablet:right-[6rem] laptop:right-[12.5rem]"
+                                 tablet:right-[6rem] laptop:right-[12.5rem]
+                                 laptop:hover:bg-CharmPink"
                 >
                   Schedule a Demo
                 </button>
@@ -121,11 +122,11 @@ const Home = () => {
             className="absolute mobile:min-w-[78rem] mobile:min-h-[78rem] 
                        mobile:top-[-60.2rem] mobile:left-[-20.2rem] 
                        tablet:left-[-0.7rem] tablet:top-[-54.8rem]
-                       laptop:left-[-23.5rem] laptop:top-[-35.9rem]"
+                       laptop:left-[-23.5rem] laptop:top-[-35.9rem] z-0"
           />
           <div
             className="flex flex-col items-center
-                         text-white laptop:items-start"
+                         text-white laptop:items-start z-10"
           >
             <h2
               className="mobile:text-h3l font-serif mobile:mb-[1.6rem]
@@ -145,8 +146,10 @@ const Home = () => {
             </p>
             <NavLink to="/About">
               <button
-                className="w-[12.9rem] font-bold text-body h-[4.8rem] 
-                         rounded-[2.5rem] border-white border border-solid"
+                className="w-[12.9rem] font-bold text-body h-[4.8rem] text-white
+                         rounded-[2.5rem] border-white border border-solid
+                         cursor:pointer
+                          hover:bg-white hover:text-MBlue z-100"
               >
                 About Us
               </button>

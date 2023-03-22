@@ -89,10 +89,10 @@ const Navbar = () => {
             return (
               <NavLink to={`/${navLink}`} key={uuid()}>
                 <li
-                  className="text-white opacity-70 
+                  className="text-white 
                              mobile:text-[2rem] font-bold 
                              z-50 text-body
-                             tablet:text-SJBlue"
+                             tablet:text-LSJBlue tablet:hover:text-SJBlue"
                   onClick={handleCloseMenu}
                 >
                   {navLink}
@@ -102,6 +102,7 @@ const Navbar = () => {
           })}
           <button
             className="w-[25.6rem] h-[4.8rem] bg-DarkPink
+                      laptop:hover:bg-CharmPink
                        text-white font-bold rounded-[2.5rem] 
                        text-body tablet:w-[17.3rem] tablet:ml-[2.5rem] laptop:ml-[30rem] desktop:ml-[43rem]"
           >

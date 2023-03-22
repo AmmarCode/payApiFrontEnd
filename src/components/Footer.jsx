@@ -39,7 +39,7 @@ const Footer = () => {
             className="w-[32.7rem] h-[4.8rem] rounded-[2.5rem]
                        bg-DarkPink text-white text-body font-bold
                        tablet:absolute tablet:top-0 tablet:right-0
-                       tablet:w-[17.3rem]"
+                       tablet:w-[17.3rem] laptop:hover:bg-CharmPink"
           >
             Schedule a Demo
           </button>
@@ -71,7 +71,7 @@ const Footer = () => {
                   <li
                     className="mobile:mb-[3.1rem] tablet:mb-0
                             text-white text-body 
-                             font-bold opacity-70"
+                             font-bold opacity-70 hover:opacity-100"
                   >
                     {navLink}
                   </li>
